@@ -1,7 +1,7 @@
 # NF1-Integration
 
 A `yml` file is included to recreate the [conda](https://www.anaconda.com) environment used for the analysis by running:   
-`conda env create -f environment.yml`. 
+`conda env create -f environment.yml`
 
 Raw counts from each experiment were stored in [_Seurat_](https://satijalab.org/seurat/) objects for analysis. The list of objects to be integrated was created using `scripts/project_list_utils.R`. This script is used to add informative meta data such as doublet scores from [_Scrublet_](https://github.com/swolock/scrublet), and merge multiple sequencing lanes per experiment. Pipeline begins with calling `scripts/fastMNN.r`. Make sure paths are changed to reflect your workspace. 
 
