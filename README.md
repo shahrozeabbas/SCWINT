@@ -21,15 +21,6 @@ Doublet scores calculated by Scrublet. Green bars indicate scores for singlet ce
 ![image](https://user-images.githubusercontent.com/28969387/168441867-b5bd629c-f7b3-4234-9e17-24bfc7ece963.png)
 <img width="751" alt="image" src="https://user-images.githubusercontent.com/28969387/168441870-8358e11e-ae21-43cf-a526-a8583d925d3e.png">
 
-## Conclusion and Discussion
-Combining multiple datasets and experimental measurements can allow current statistical methods to capture rarer cell types. This is challenging not only due to the batch effect present from sample processing, but also from the sequencing approach introducing doublets and RNA that is not endogenous to the cell. Through our approach we have learned:
-
-Cell-free RNA contamination required a more aggressive integration to preserve the global cell type clustering. We tested values of k up to 500 prior to correcting with SoupX and only 20 after correction.
-
-Presence of doublets impairs cell type clustering by causing cells of one type to cluster with cells from another, also called ‘leaky’ cells here. 
-
-After correcting for RNA contamination and removing doublets, FastMNN accurately groups ~400,000 cells into 7 well known cell types as shown by the UMAP. 
-
 
 
 
