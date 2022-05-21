@@ -2,7 +2,7 @@
 
 
 ## Background
-Single cell sequencing allows researchers to explore disease mechanisms with greater resolution than microarray or bulk-tissue. One drawback is that data is sparse and difficult to interpret. Recent approaches have leveraged the integration of multiple datasets and modalities to further elucidate cell types and discover populations that would otherwise be difficult to observe. Several methods exist for data integration. Here, we combine expression information of 49 different tumors from different reagents and chemistries using FastMNN to normalize and smooth the data for visualization and differential gene expression analysis.  
+Single cell sequencing allows researchers to explore disease mechanisms with greater resolution than microarray or bulk-tissue. One drawback is that data are sparse and difficult to interpret. Recent approaches have leveraged the integration of multiple datasets and modalities to further elucidate cell types and discover populations that would otherwise be difficult to observe. Several methods exist for data integration. Here, we combine expression information of 49 different tumors from different reagents and chemistries using FastMNN to normalize and smooth the data for visualization and differential gene expression analysis.  
 ![image](https://user-images.githubusercontent.com/28969387/168441675-a25aad12-a771-423d-8a8f-ddc3e6c7d7c9.png)
 
 ## Workflow and Methods
