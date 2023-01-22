@@ -1,4 +1,4 @@
-# A Single Cell RNA-Seq Workflow to Integrate and Normalize Diverse Datasets in NF1 Nerve Tumors
+# SWINT: Single-Cell Workflow for Integrating and Normalizing NF1 Tumors
 
 
 ## Background
