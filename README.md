@@ -19,10 +19,3 @@ This figure from the SoupX paper outlines the process of correcting count matric
 Doublet scores calculated by Scrublet. Green bars indicate scores for singlet cells, while purple bars indicate potential doublets. Presence of doublets has been shown to confound cell type clustering.
 
 
-
-
-
-
-
-A `yml` file is included to recreate the [conda](https://www.anaconda.com) environment used for the analysis by running:   
-`conda env create -f environment.yml`
