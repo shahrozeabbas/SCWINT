@@ -1,4 +1,4 @@
-# SWINT: Single-Cell Workflow for Integrating and Normalizing Tumors
+# SCWINT: Single-Cell Workflow for Integrating and Normalizing Tumors
 
 
 ## Background
